@@ -25,7 +25,7 @@ Open a powershell prompt:
 ### References
 [1] https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-initiatedsignon
 
-### Mitre technique
+#### Mitre technique
 Gather Victim Network Information: Network Trust Dependencies
 https://attack.mitre.org/techniques/T1590/003/ 
 
