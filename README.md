@@ -4,7 +4,7 @@ Active Directory Federation Service (AD FS) enables Federated Identity and Acces
 The Active Directory Federation Services (AD FS) sign-on page can be used to check if authentication is working. This test is done by navigating to the page and signing in. Also, you can use the sign-in page to verify that all SAML 2.0 relying parties are listed. [1] 
 
 ## Info
-In Windows Server 2016-based AD FS Farms, the IdP-initiated Sign-on page is disabled by default. However, since many administrators rely on this page for testing SSO functionality this endpoint is often (temporarily) enabled and forgotton. 
+In Windows Server 2016-based AD FS Farms, the IdP-initiated Sign-on page is disabled by default. However, since many administrators rely on this page for testing SSO functionality this endpoint is often (temporarily) enabled and forgotten. 
 
 It is advisable to disable the IdpInitiatedSignonPage endpoint from being remotely accessible, due to the fact this can give unnecessary information about various service providers being used within the corporate environment. To do so, run the following PowerShell command to configure the ADFS Farm:
 ```Set-AdfsProperties –EnableIdpInitiatedSignonPage $False```
