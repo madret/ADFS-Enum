@@ -13,5 +13,5 @@ Open a powershell prompt:
 1. ```cd C:\Location\where\this\script\locates```
 2. ```Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process```
 3. ```.\ADFS-enum.ps1```
-4. Enter the domain name that you'd like to test out (e.g. tesla.com)
+4. Enter the domain name that you'd like to test out (e.g. ```tesla.com```)
 5. Receive output..
