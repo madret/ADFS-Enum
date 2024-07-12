@@ -22,10 +22,11 @@ Open a powershell prompt:
 
 ![image](https://github.com/user-attachments/assets/0aa0b408-07f3-4bd2-8131-fb177c0ba577)
 
+### MITRE ATT&CK® 
+Gather Victim Network Information: Network Trust Dependencies
+https://attack.mitre.org/techniques/T1590/003/ 
+
 ### References
 [1] https://learn.microsoft.com/en-us/windows-server/identity/ad-fs/troubleshooting/ad-fs-tshoot-initiatedsignon
 
-#### MITRE ATT&CK® 
-Gather Victim Network Information: Network Trust Dependencies
-https://attack.mitre.org/techniques/T1590/003/ 
 
