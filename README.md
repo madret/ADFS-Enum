@@ -15,3 +15,8 @@ Open a powershell prompt:
 3. ```.\ADFS-enum.ps1```
 4. Enter the domain name that you'd like to test out (e.g. ```tesla.com```)
 5. Receive output..
+
+## Example output
+
+![image](https://github.com/user-attachments/assets/0aa0b408-07f3-4bd2-8131-fb177c0ba577)
+
