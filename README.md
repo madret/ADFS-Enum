@@ -4,7 +4,7 @@ Active Directory Federation Service (AD FS) enables Federated Identity and Acces
 ## Info
 In Windows Server 2016-based AD FS Farms, the IdP-initiated Sign-on page is disabled by default. However, since many administrators rely on this page for testing SSO functionality this endpoint is often temporarily enabled. 
 
-It is advisable to disable the IdpInitiatedSignonPage endpoint from being remotely accessible, due to the fact this can give unnecessary information about service providers being used within the corporate environment. To do so, run the following PowerShell command to configure the ADFS Farm:
+It is advisable to disable the IdpInitiatedSignonPage endpoint from being remotely accessible, due to the fact this can give unnecessary information about various service providers being used within the corporate environment. To do so, run the following PowerShell command to configure the ADFS Farm:
 ```Set-AdfsProperties –EnableIdpInitiatedSignonPage $False```
 
 # Usage
