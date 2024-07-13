@@ -9,7 +9,7 @@ In Windows Server 2016-based AD FS Farms, the IdP-initiated Sign-on page is disa
 It is advisable to disable the IdpInitiatedSignonPage endpoint from being remotely accessible, due to the fact that this can give unnecessary information about various service providers being used within the corporate environment. To do so, run the following PowerShell command to configure the ADFS Farm:
 ```Set-AdfsProperties –EnableIdpInitiatedSignonPage $False```
 
-# Usage
+# Script usage
 Open a powershell prompt:
 
 1. ```cd C:\Location\where\this\script\locates```
