@@ -23,7 +23,7 @@ Open a powershell prompt:
 ![image](https://github.com/user-attachments/assets/0aa0b408-07f3-4bd2-8131-fb177c0ba577)
 
 ### MITRE ATT&CK® 
-Gather Victim Network Information: Network Trust Dependencies
+T1590.003 - Gather Victim Network Information: Network Trust Dependencies
 https://attack.mitre.org/techniques/T1590/003/ 
 
 ### References
