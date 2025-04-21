@@ -3,7 +3,34 @@ Write-Host -ForegroundColor Blue "Enter the base domain (e.g. example.com):"
 $domain = Read-Host
 
 # Potential and common ADFS subdomains
-$subdomains = @("adfs", "idp", "fs", "toegang", "sts", "auth", "sso", "wsso", "login", "federation", "signin")
+$subdomains = @(
+    "adfs",
+    "idp",
+    "fs",
+    "toegang",
+    "sts",
+    "auth",
+    "sso",
+    "wsso",
+    "login",
+    "federation",
+    "signin",
+    "secure",
+    "portal",
+    "identity",
+    "identiteit",
+    "authn",
+    "accounts",
+    "myaccount",
+    "myid",
+    "logon",
+    "fed",
+    "token",
+    "access",
+    "oauth",
+    "openid",
+    "pass"
+)
 
 # Function to check if given subdomain is using ADFS
 function Test-ADFS {
